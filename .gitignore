@@ -1,0 +1,44 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+.cache/
+
+# Generated Next.js files and static export
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.turbo/
+
+# Environment variables and local Cloudflare secrets
+.env*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Test reports, coverage and local screenshots
+qa-output/
+playwright-report/
+test-results/
+coverage/
+
+# Local deployment state; keep the existing Sites hosting manifest tracked
+.openai/deploy-checkout/
+.openai/local*
+.sites-checkout*/
+.sites-runtime/
+.wrangler/
+.vercel/
+.netlify/
+
+# Logs and deployment archives
+*.log
+*.zip
+*.tar.gz
+*.tgz
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,178 @@
+{
+  "visual": {
+    "engineering": "ENGINEERING",
+    "product": "PRODUCT",
+    "entrepreneurship": "ENTREPRENEURSHIP",
+    "productThinking": "PRODUCT THINKING",
+    "impact": "REAL-WORLD IMPACT",
+    "edition": "PORTFOLIO / VOL. 01",
+    "build": "BUILD / CONNECT",
+    "spain": "SPAIN",
+    "everywhere": "EVERYWHERE",
+    "football": "THE GAME. CONNECTED.",
+    "focus": "less, but better.",
+    "restricted": "RESTRICTED AREA",
+    "control": "CONTROL / 07",
+    "users": "real users. first lessons."
+  },
+  "nav": {
+    "about": "About",
+    "work": "Selected work",
+    "experience": "Experience",
+    "contact": "Let's talk",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "home": "Back to home",
+    "language": "Switch language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "ENGINEER · PRODUCT OWNER · ENTREPRENEUR",
+    "line1": "I turn ambitious",
+    "line2": "ideas into",
+    "line3": "real products.",
+    "description": "I’m Iago Estévez. I bridge engineering, product strategy and execution to build things that make a difference.",
+    "explore": "Explore my work",
+    "connect": "Let's connect",
+    "location": "BASED IN SPAIN · WORKING GLOBALLY",
+    "scroll": "SCROLL TO EXPLORE",
+    "edition": "INDEPENDENT MIND. BUILDER AT HEART.",
+    "core": "ENGINEERING × PRODUCT × BUSINESS",
+    "coreLabel": "Interactive geometric core representing the intersection of engineering, product and business"
+  },
+  "about": {
+    "label": "01 / THE PERSON BEHIND THE PRODUCTS",
+    "title": "Beyond the",
+    "accent": "job title.",
+    "portrait": "ENGINEERING × BUSINESS",
+    "portraitNote": "A multidisciplinary perspective",
+    "revenueNote": "¹ Milestone reached by a product I helped lead; not attributed to tuFoot."
+  },
+  "work": {
+    "visitWebsite": "Visit website",
+    "availableOn": "Available on",
+    "availableNow": "EXPLORE THE PRODUCT",
+    "discover": "Explore",
+    "ownership": "PRODUCT, ENGINEERING & BUSINESS",
+    "challenge": "THE CHALLENGE",
+    "shipped": "FROM IDEA TO A LIVE PRODUCT",
+    "outcomeTitle": "Built. Published. Still evolving.",
+    "brandVisual": "BRAND IDENTITY · ORIGINAL LOGO",
+    "label": "02 / SELECTED WORK",
+    "title": "Ideas made",
+    "accent": "tangible.",
+    "description": "Different challenges. The same drive to build something that matters.",
+    "view": "Explore project",
+    "all": "The first chapter",
+    "active": "LIVE PRODUCT",
+    "development": "IN DEVELOPMENT",
+    "testing": "IN TESTING",
+    "completed": "COMPLETED",
+    "concept": "CONCEPT VISUAL · NOT A PRODUCT SCREENSHOT",
+    "gameConcept": "ATMOSPHERIC CONCEPT · NOT GAMEPLAY",
+    "nonprofit": "NONPROFIT INITIATIVE",
+    "archive": "From the archive",
+    "next": "Next project",
+    "back": "All projects",
+    "overview": "The bigger picture.",
+    "role": "MY INVOLVEMENT",
+    "stack": "BUILT WITH",
+    "capabilities": "The product, in focus.",
+    "gallery": "A closer look.",
+    "zoom": "View image",
+    "close": "Close image",
+    "previous": "Previous image",
+    "nextImage": "Next image",
+    "dates": "PERIOD",
+    "status": "STATUS",
+    "project": "PROJECT",
+    "external": "External links",
+    "video": "Project video"
+  },
+  "experience": {
+    "label": "03 / THE JOURNEY",
+    "title": "Built on",
+    "accent": "experience.",
+    "description": "From writing the code to shaping what gets built — and why.",
+    "present": "Present",
+    "more": "Explore role",
+    "less": "Close details",
+    "responsibilities": "Responsibilities",
+    "achievements": "Highlights"
+  },
+  "skills": {
+    "label": "04 / THE TOOLKIT",
+    "title": "Different disciplines.",
+    "accent": "One connected mindset.",
+    "description": "Select a discipline to explore the tools and thinking behind my work.",
+    "connected": "PUT TO WORK AT",
+    "all": "Explore all capabilities",
+    "diagram": "Connected capabilities: product, software, infrastructure, engineering, business and tools"
+  },
+  "approach": {
+    "label": "05 / HOW I WORK",
+    "title": "From the first sketch",
+    "accent": "to the real world.",
+    "steps": [
+      {
+        "title": "Understand the problem",
+        "description": "Listen first. Find the real user need and the problem worth solving."
+      },
+      {
+        "title": "Think like an engineer",
+        "description": "Make it sound, scalable and maintainable. Get the foundations right."
+      },
+      {
+        "title": "Execute like a founder",
+        "description": "Move from strategy to execution. Build, test, learn and keep going."
+      },
+      {
+        "title": "Own the outcome",
+        "description": "Useful products create real value. That’s the measure that matters."
+      }
+    ],
+    "flow": ["IDEA", "VALIDATION", "ENGINEERING", "PRODUCT", "IMPACT"]
+  },
+  "education": {
+    "label": "06 / ROOTS & PERSPECTIVE",
+    "title": "Grounded in engineering.",
+    "accent": "Open to the world.",
+    "languages": "A few ways to connect."
+  },
+  "contact": {
+    "label": "07 / WHAT'S NEXT?",
+    "title": "Let's build something",
+    "accent": "meaningful.",
+    "description": "An ambitious product, a new venture, or a challenge at the intersection of technology and business. I’d love to hear about it.",
+    "email": "Email me",
+    "copy": "Copy email address",
+    "copied": "Email copied",
+    "copyError": "Could not copy. You can select the email address above.",
+    "name": "Your name",
+    "emailField": "Your email",
+    "message": "What do you have in mind?",
+    "send": "Start a conversation",
+    "sending": "Sending…",
+    "fallback": "This opens your email app with your message ready to send.",
+    "draft": "Your email draft is ready. Send it from your email app to complete your message.",
+    "success": "Your message has been accepted. Thank you for getting in touch.",
+    "error": "Your message could not be sent. Please email me directly using the link above.",
+    "invalid": "Please enter your name, a valid email address and a message of at least 10 characters.",
+    "honeypot": "Leave this field empty",
+    "privacy": "Your details are used only to respond to your message."
+  },
+  "footer": {
+    "tagline": "Engineered with purpose. Built with care.",
+    "top": "Back to top",
+    "rights": "Iago Estévez. All rights reserved."
+  },
+  "meta": {
+    "title": "Iago Estévez — Engineer. Product Builder. Entrepreneur.",
+    "description": "Telecommunications engineer, product owner and entrepreneur. Explore Iago Estévez’s work across software engineering, product strategy and 0-to-1 ventures."
+  },
+  "errors": {
+    "notFound": "This page hasn’t been built.",
+    "description": "The address may have changed. Head back to the portfolio to explore my work.",
+    "back": "Back to the portfolio"
+  }
+}

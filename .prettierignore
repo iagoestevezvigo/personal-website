@@ -1,0 +1,8 @@
+node_modules
+.npm-cache
+.next
+out
+qa-output
+package-lock.json
+public
+.openai

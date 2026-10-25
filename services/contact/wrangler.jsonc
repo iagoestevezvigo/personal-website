@@ -1,0 +1,16 @@
+{
+  "name": "iago-portfolio-contact",
+  "main": "worker.ts",
+  "compatibility_date": "2026-10-21",
+  "vars": {
+    "ALLOWED_ORIGIN": "https://iago-estevez-portfolio.rea-de-traba-3698.chatgpt.site",
+    "CONTACT_TO": "iagoestevez1025@gmail.com",
+  },
+  "ratelimits": [
+    {
+      "name": "CONTACT_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 5, "period": 60 },
+    },
+  ],
+}

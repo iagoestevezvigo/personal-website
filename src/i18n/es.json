@@ -1,0 +1,178 @@
+{
+  "visual": {
+    "engineering": "INGENIERÍA",
+    "product": "PRODUCTO",
+    "entrepreneurship": "EMPRENDIMIENTO",
+    "productThinking": "VISIÓN DE PRODUCTO",
+    "impact": "IMPACTO REAL",
+    "edition": "PORTFOLIO / VOL. 01",
+    "build": "CREAR / CONECTAR",
+    "spain": "ESPAÑA",
+    "everywhere": "EL MUNDO",
+    "football": "EL JUEGO. CONECTADO.",
+    "focus": "menos, pero mejor.",
+    "restricted": "ÁREA RESTRINGIDA",
+    "control": "CONTROL / 07",
+    "users": "usuarios reales. primeras lecciones."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "work": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Hablemos",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "home": "Volver al inicio",
+    "language": "Cambiar idioma",
+    "skip": "Saltar al contenido"
+  },
+  "hero": {
+    "eyebrow": "INGENIERO · PRODUCT OWNER · EMPRENDEDOR",
+    "line1": "Transformo ideas",
+    "line2": "ambiciosas en",
+    "line3": "productos reales.",
+    "description": "Soy Iago Estévez. Conecto ingeniería, estrategia de producto y ejecución para construir soluciones que marcan la diferencia.",
+    "explore": "Explora mis proyectos",
+    "connect": "Conectemos",
+    "location": "DESDE ESPAÑA · PARA EL MUNDO",
+    "scroll": "DESLIZA PARA EXPLORAR",
+    "edition": "MENTE INDEPENDIENTE. ESPÍRITU CREADOR.",
+    "core": "INGENIERÍA × PRODUCTO × NEGOCIO",
+    "coreLabel": "Núcleo geométrico interactivo que representa la unión de ingeniería, producto y negocio"
+  },
+  "about": {
+    "label": "01 / LA PERSONA DETRÁS DEL PRODUCTO",
+    "title": "Más allá de",
+    "accent": "un cargo.",
+    "portrait": "INGENIERÍA × NEGOCIO",
+    "portraitNote": "Una perspectiva multidisciplinar",
+    "revenueNote": "¹ Hito alcanzado por un producto que ayudé a liderar; no se atribuye a tuFoot."
+  },
+  "work": {
+    "visitWebsite": "Visitar la web",
+    "availableOn": "Disponible en",
+    "availableNow": "DESCUBRE EL PRODUCTO",
+    "discover": "Explorar",
+    "ownership": "PRODUCTO, INGENIERÍA Y NEGOCIO",
+    "challenge": "EL RETO",
+    "shipped": "DE LA IDEA A UN PRODUCTO PUBLICADO",
+    "outcomeTitle": "Creado. Publicado. En evolución.",
+    "brandVisual": "IDENTIDAD DE MARCA · LOGO ORIGINAL",
+    "label": "02 / PROYECTOS SELECCIONADOS",
+    "title": "Ideas que toman",
+    "accent": "forma.",
+    "description": "Retos diferentes. Las mismas ganas de construir algo que importe.",
+    "view": "Explorar proyecto",
+    "all": "El primer capítulo",
+    "active": "PRODUCTO ACTIVO",
+    "development": "EN DESARROLLO",
+    "testing": "EN PRUEBAS",
+    "completed": "COMPLETADO",
+    "concept": "VISUAL CONCEPTUAL · NO ES UNA CAPTURA DEL PRODUCTO",
+    "gameConcept": "CONCEPTO AMBIENTAL · NO ES UNA CAPTURA DEL JUEGO",
+    "nonprofit": "INICIATIVA SIN ÁNIMO DE LUCRO",
+    "archive": "Del archivo",
+    "next": "Siguiente proyecto",
+    "back": "Todos los proyectos",
+    "overview": "La visión de conjunto.",
+    "role": "MI PARTICIPACIÓN",
+    "stack": "TECNOLOGÍAS",
+    "capabilities": "El producto, de cerca.",
+    "gallery": "Una mirada más cercana.",
+    "zoom": "Ampliar imagen",
+    "close": "Cerrar imagen",
+    "previous": "Imagen anterior",
+    "nextImage": "Imagen siguiente",
+    "dates": "PERIODO",
+    "status": "ESTADO",
+    "project": "PROYECTO",
+    "external": "Enlaces externos",
+    "video": "Vídeo del proyecto"
+  },
+  "experience": {
+    "label": "03 / EL RECORRIDO",
+    "title": "El valor de la",
+    "accent": "experiencia.",
+    "description": "De escribir el código a decidir qué construir y por qué.",
+    "present": "Actualidad",
+    "more": "Explorar puesto",
+    "less": "Cerrar detalles",
+    "responsibilities": "Responsabilidades",
+    "achievements": "A destacar"
+  },
+  "skills": {
+    "label": "04 / LAS HERRAMIENTAS",
+    "title": "Distintas disciplinas.",
+    "accent": "Una visión conectada.",
+    "description": "Selecciona una disciplina y descubre las herramientas y el enfoque detrás de mi trabajo.",
+    "connected": "APLICADO EN",
+    "all": "Explorar todas las capacidades",
+    "diagram": "Capacidades conectadas: producto, software, infraestructura, ingeniería, negocio y herramientas"
+  },
+  "approach": {
+    "label": "05 / CÓMO TRABAJO",
+    "title": "Del primer boceto",
+    "accent": "al mundo real.",
+    "steps": [
+      {
+        "title": "Entender el problema",
+        "description": "Escuchar primero. Encontrar la necesidad real y el problema que merece una solución."
+      },
+      {
+        "title": "Pensar como ingeniero",
+        "description": "Crear soluciones sólidas, escalables y mantenibles. Cuidar los cimientos."
+      },
+      {
+        "title": "Ejecutar como fundador",
+        "description": "Pasar de la estrategia a la acción. Construir, probar, aprender y continuar."
+      },
+      {
+        "title": "Asumir el resultado",
+        "description": "Los productos útiles generan valor real. Esa es la medida que importa."
+      }
+    ],
+    "flow": ["IDEA", "VALIDACIÓN", "INGENIERÍA", "PRODUCTO", "IMPACTO"]
+  },
+  "education": {
+    "label": "06 / RAÍCES Y PERSPECTIVA",
+    "title": "Con base en la ingeniería.",
+    "accent": "Abierto al mundo.",
+    "languages": "Distintas formas de conectar."
+  },
+  "contact": {
+    "label": "07 / ¿QUÉ VIENE AHORA?",
+    "title": "Construyamos algo",
+    "accent": "que importe.",
+    "description": "Un producto ambicioso, una nueva empresa o un reto que conecte tecnología y negocio. Me encantará conocerlo.",
+    "email": "Escríbeme",
+    "copy": "Copiar dirección de correo",
+    "copied": "Correo copiado",
+    "copyError": "No se ha podido copiar. Puedes seleccionar la dirección de correo que aparece arriba.",
+    "name": "Tu nombre",
+    "emailField": "Tu correo",
+    "message": "¿Qué tienes en mente?",
+    "send": "Iniciar una conversación",
+    "sending": "Enviando…",
+    "fallback": "Se abrirá tu aplicación de correo con el mensaje listo para enviar.",
+    "draft": "Tu borrador está preparado. Envíalo desde tu aplicación de correo para completar el mensaje.",
+    "success": "Tu mensaje se ha aceptado. Gracias por ponerte en contacto.",
+    "error": "No se ha podido enviar. Escríbeme directamente con el enlace de arriba.",
+    "invalid": "Introduce tu nombre, un correo válido y un mensaje de al menos 10 caracteres.",
+    "honeypot": "Deja este campo vacío",
+    "privacy": "Tus datos solo se utilizan para responder a tu mensaje."
+  },
+  "footer": {
+    "tagline": "Ingeniería con propósito. Desarrollo con cuidado.",
+    "top": "Volver arriba",
+    "rights": "Iago Estévez. Todos los derechos reservados."
+  },
+  "meta": {
+    "title": "Iago Estévez — Ingeniero. Creador de productos. Emprendedor.",
+    "description": "Ingeniero de Telecomunicaciones, product owner y emprendedor. Descubre los proyectos de Iago Estévez en software, estrategia de producto y creación desde cero."
+  },
+  "errors": {
+    "notFound": "Esta página está por construir.",
+    "description": "Puede que la dirección haya cambiado. Vuelve al portfolio para explorar mis proyectos.",
+    "back": "Volver al portfolio"
+  }
+}
