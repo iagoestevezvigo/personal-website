@@ -1,0 +1,75 @@
+export const locales = ["en", "es"] as const;
+export type Locale = (typeof locales)[number];
+export type Localized = Record<Locale, string>;
+export type Media = {
+  src: string;
+  type: "image" | "video";
+  alt: Localized;
+  caption?: Localized;
+  poster?: string;
+};
+export type ExternalLink = {
+  label: Localized;
+  url: string;
+  type?: "website" | "github" | "appstore" | "playstore" | "demo" | "other";
+};
+export type Project = {
+  id: string;
+  slug: string;
+  name: string;
+  category: Localized;
+  headline: Localized;
+  shortDescription: Localized;
+  fullDescription: Localized[];
+  role: Localized;
+  status: "active" | "development" | "testing" | "completed";
+  startDate?: string;
+  endDate?: string | null;
+  technologies: string[];
+  coverImage?: string;
+  logo?: string;
+  presentation?: {
+    label: Localized;
+    title: Localized;
+    note: Localized;
+    screens: Media[];
+  };
+  caseStudy?: {
+    title: Localized;
+    introduction: Localized;
+    challenge: Localized;
+    contributions: { title: Localized; description: Localized }[];
+    outcome: Localized;
+  };
+  gallery: Media[];
+  links: ExternalLink[];
+  capabilities: Localized[];
+  accentColor: string;
+  visual: "pitch" | "focus" | "city" | "terminal" | "editorial";
+  highlight?: Localized;
+  featured: boolean;
+  published: boolean;
+  order: number;
+  seoTitle?: Localized;
+  seoDescription?: Localized;
+};
+export type Experience = {
+  id: string;
+  company: string;
+  role: Localized;
+  location: Localized;
+  startDate: string;
+  endDate: string | null;
+  current: boolean;
+  logo?: string;
+  website?: string;
+  summary: Localized;
+  description: Localized;
+  responsibilities: Localized[];
+  achievements: Localized[];
+  technologies: string[];
+  media: Media[];
+  links: ExternalLink[];
+  order: number;
+};
+export const text = (en: string, es: string): Localized => ({ en, es });

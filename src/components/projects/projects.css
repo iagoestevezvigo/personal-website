@@ -1,0 +1,845 @@
+/* Real product imagery and launch links share a reusable presentation system. */
+.project-status.testing i {
+  background: #e9be78;
+}
+.project-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.project-name > img {
+  border-radius: 8px;
+  object-fit: contain;
+  background: #fff;
+  flex-shrink: 0;
+}
+.product-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 12px 16px;
+  border: 1px solid #a7badb30;
+  border-radius: 7px;
+  background: #11172280;
+  min-width: 158px;
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    background 0.2s;
+}
+.product-link > svg:first-child {
+  color: var(--project-accent, #9dbaff);
+  flex-shrink: 0;
+}
+.product-link > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.product-link small {
+  font-size: 8px;
+  line-height: 1.5;
+  color: #9cabc3;
+}
+.product-link strong {
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.product-link-arrow {
+  margin-left: auto;
+  color: #9cabc3;
+}
+.product-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--project-accent, #9dbaff);
+  background: #192334;
+}
+.product-links.compact {
+  margin-top: 20px;
+  gap: 7px;
+}
+.product-links.compact .product-link {
+  min-width: 0;
+  padding: 8px 10px;
+  gap: 7px;
+  border-radius: 4px;
+}
+.product-links.compact strong {
+  font-family: var(--body);
+  font-size: 10px;
+  font-weight: 400;
+}
+.product-links.compact .product-link-arrow {
+  display: none;
+}
+.detail-platforms {
+  margin-top: 30px;
+}
+.detail-platforms > .eyebrow {
+  font-size: 8px;
+  color: #a8bacf;
+  margin-bottom: 13px;
+}
+.detail-heading h1 img {
+  border-radius: 13px;
+}
+.product-presentation {
+  background:
+    radial-gradient(ellipse at 75% 70%, #32614377, transparent 60%),
+    linear-gradient(135deg, #12291e, #132b23 60%, #0d2119);
+  color: #e9f7dd;
+}
+.product-presentation-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(#9ed09822 1px, transparent 1px),
+    linear-gradient(90deg, #9ed09822 1px, transparent 1px);
+  background-size: 45px 45px;
+  mask-image: linear-gradient(120deg, transparent, #000);
+}
+.product-presentation-brand {
+  position: absolute;
+  left: 25px;
+  top: 24px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 3;
+}
+.product-presentation-brand > img {
+  border-radius: 9px;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.product-presentation-brand > span {
+  font: 30px var(--heading);
+  letter-spacing: -1.7px;
+  line-height: 1;
+}
+.product-presentation-brand i {
+  color: #b6f580;
+  font-style: normal;
+}
+.product-presentation-copy {
+  position: absolute;
+  left: 25px;
+  top: 102px;
+  width: 32%;
+  z-index: 2;
+}
+.product-presentation-copy > .mono {
+  font-size: 6px;
+  letter-spacing: 1px;
+  color: #a1bf9c;
+  max-width: 130px;
+  margin-bottom: 14px;
+}
+.product-presentation-copy > h3 {
+  white-space: pre-line;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  line-height: 1.15;
+  color: #e9f7dd;
+}
+.product-phones {
+  position: absolute;
+  right: -12%;
+  bottom: -12%;
+  height: 90%;
+  width: 55%;
+  perspective: 1000px;
+}
+.product-phone {
+  position: absolute;
+  width: 44%;
+  aspect-ratio: 599/1300;
+  padding: 4px;
+  border: 1px solid #647b6f;
+  border-radius: 19px;
+  background: #0b1713;
+  overflow: hidden;
+  box-shadow: 10px 18px 35px #0007;
+  transform-origin: bottom;
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.product-phone > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+.phone-1 {
+  left: 0;
+  top: 25px;
+  transform: rotate(-14deg);
+  z-index: 1;
+}
+.phone-2 {
+  left: 28%;
+  top: 0;
+  transform: rotate(-5deg);
+  z-index: 3;
+}
+.phone-3 {
+  right: 0;
+  top: 40px;
+  transform: rotate(8deg);
+  z-index: 2;
+}
+.project-art-link:hover .phone-1 {
+  transform: rotate(-17deg) translateY(-4px);
+}
+.project-art-link:hover .phone-2 {
+  transform: rotate(-3deg) translateY(-9px);
+}
+.project-art-link:hover .phone-3 {
+  transform: rotate(11deg) translateY(-4px);
+}
+.product-presentation-note {
+  position: absolute;
+  left: 25px;
+  bottom: 22px;
+  font-size: 5.5px;
+  letter-spacing: 0.6px;
+  color: #b1c7af;
+  z-index: 4;
+  max-width: 170px;
+}
+.product-presentation-cross {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  font: 16px var(--mono);
+  color: #bdd7a980;
+}
+.detail-visual.product-presentation {
+  height: 565px;
+}
+.detail-visual .product-presentation-brand {
+  top: 40px;
+  left: 45px;
+  gap: 14px;
+}
+.detail-visual .product-presentation-brand > span {
+  font-size: 45px;
+}
+.detail-visual .product-presentation-brand > img {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+}
+.detail-visual .product-presentation-copy {
+  top: 150px;
+  left: 45px;
+  width: 32%;
+}
+.detail-visual .product-presentation-copy > .mono {
+  font-size: 9px;
+  max-width: 100%;
+  margin-bottom: 22px;
+}
+.detail-visual .product-presentation-copy > h3 {
+  font-size: 52px;
+  letter-spacing: -2.5px;
+}
+.detail-visual .product-phones {
+  width: 52%;
+  height: 88%;
+  right: -4%;
+  bottom: -10%;
+}
+.detail-visual .product-phone {
+  width: 41%;
+  border-radius: 30px;
+  padding: 6px;
+}
+.detail-visual .product-phone > img {
+  border-radius: 22px;
+}
+.detail-visual .phone-1 {
+  left: 0;
+  top: 40px;
+}
+.detail-visual .phone-2 {
+  left: 29%;
+  top: 0;
+}
+.detail-visual .phone-3 {
+  top: 60px;
+}
+.detail-visual .product-presentation-note {
+  left: 45px;
+  bottom: 40px;
+  font-size: 7px;
+  max-width: 350px;
+}
+/* The original Focum artwork defines the warm, quiet colour treatment. */
+.visual-focus {
+  background: radial-gradient(
+    ellipse at 50% 38%,
+    #fbf9f2,
+    #ebe9e1 70%,
+    #dddeda
+  );
+  color: #3b4943;
+}
+.visual-focus .focus-orbit {
+  border-color: #9ba9a133;
+}
+.visual-focus .focus-orbit.two {
+  border-color: #9ba9a123;
+}
+.visual-focus .focus-orbit.three {
+  border-color: #9ba9a114;
+}
+.visual-focus .focus-disc {
+  background: #f7f6f1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #aeb5ac30;
+  box-shadow: 0 12px 45px #6f7e6d15;
+}
+.visual-focus .focus-disc > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.project-art-link:hover .visual-focus .focus-disc {
+  transform: translate(-50%, -53%);
+}
+.visual-focus .focus-title {
+  color: #38483f;
+}
+.visual-focus .focus-title > span {
+  color: #69756d;
+}
+.visual-focus .concept-caption {
+  color: #626c62;
+}
+.visual-focus .visual-sub {
+  color: #6e776e;
+}
+.visual-focus .visual-corner {
+  color: #c8493f;
+}
+.case-study-heading {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 75px;
+  align-items: end;
+}
+.case-study-heading .eyebrow {
+  color: var(--project-accent);
+  margin-bottom: 25px;
+}
+.case-study-heading h2 {
+  white-space: pre-line;
+  font-size: 49px;
+  letter-spacing: -2.1px;
+}
+.case-study-heading > p {
+  font-size: 13px;
+  line-height: 1.95;
+  max-width: 390px;
+}
+.case-challenge {
+  margin-top: 45px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+.case-challenge > .eyebrow {
+  font-size: 9px;
+  color: #a4b5c8;
+}
+.case-challenge > p {
+  font-size: 13px;
+  color: #b5c2d2;
+  line-height: 1.9;
+}
+.case-contributions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 45px;
+}
+.case-contributions article > .mono {
+  font-size: 10px;
+  color: var(--project-accent);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.case-contributions h3 {
+  font-size: 23px;
+  letter-spacing: -0.7px;
+  margin-bottom: 15px;
+}
+.case-contributions p {
+  font-size: 12px;
+  line-height: 1.9;
+}
+.case-outcome {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 55px;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid #b6f58025;
+  border-radius: 6px;
+  background: linear-gradient(120deg, #8eb66a0a, #8eb66a02);
+}
+.case-outcome .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--project-accent);
+  font-size: 7px;
+}
+.case-outcome h3 {
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  margin: 13px 0;
+}
+.case-outcome p {
+  font-size: 11px;
+  line-height: 1.85;
+}
+.case-outcome .product-links {
+  justify-content: flex-end;
+}
+.case-outcome .product-link {
+  min-width: 155px;
+}
+.gallery-note {
+  margin-top: 15px;
+  font: 8px var(--mono);
+  letter-spacing: 0.8px;
+}
+.detail-gallery .media-gallery {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
+  margin-top: 30px;
+}
+.detail-gallery .gallery-button {
+  padding: 17px;
+  background: linear-gradient(135deg, #1b2922, #111a16);
+  border-color: #9dbf981a;
+}
+.detail-gallery .gallery-button > img {
+  aspect-ratio: 599/1300;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 13px;
+}
+.detail-gallery .gallery-button > svg {
+  background: #0d1611aa;
+  border-radius: 4px;
+  padding: 5px;
+  box-sizing: content-box;
+  bottom: 24px;
+  right: 24px;
+}
+.detail-gallery .media-gallery figcaption {
+  font-size: 11px;
+  line-height: 1.7;
+}
+@media (max-width: 1100px) {
+  .product-presentation-copy > h3 {
+    font-size: 27px;
+  }
+  .product-presentation-brand {
+    top: 22px;
+    left: 20px;
+  }
+  .product-presentation-copy {
+    left: 20px;
+  }
+  .product-presentation-note {
+    left: 20px;
+    font-size: 5px;
+  }
+  .detail-visual .product-presentation-copy > h3 {
+    font-size: 51px;
+  }
+  .detail-visual .product-phone {
+    border-radius: 24px;
+  }
+  .case-study-heading {
+    gap: 40px;
+  }
+  .case-study-heading h2 {
+    font-size: 41px;
+  }
+  .case-contributions {
+    gap: 25px;
+  }
+  .case-outcome {
+    gap: 25px;
+    padding: 25px;
+  }
+  .case-outcome .product-link {
+    min-width: 130px;
+  }
+}
+@media (max-width: 900px) {
+  .project-list .product-presentation-copy {
+    top: 92px;
+    width: 33%;
+  }
+  .project-list .product-presentation-copy > h3 {
+    font-size: 23px;
+    letter-spacing: -1.1px;
+  }
+  .project-list .product-presentation-copy > .mono {
+    font-size: 5px;
+    letter-spacing: 0.5px;
+  }
+  .project-list .product-presentation-brand > span {
+    font-size: 26px;
+  }
+  .project-list .product-presentation-brand > img {
+    width: 28px;
+    height: 28px;
+  }
+  .project-list .product-phones {
+    width: 55%;
+    bottom: -15%;
+    height: 80%;
+    right: -16%;
+  }
+  .product-links.compact {
+    gap: 5px;
+  }
+  .product-links.compact .product-link {
+    padding: 7px 8px;
+    gap: 5px;
+  }
+  .product-links.compact strong {
+    font-size: 9px;
+  }
+  .product-links.compact .product-link > svg {
+    width: 13px;
+  }
+  .detail-visual.product-presentation {
+    height: 465px;
+  }
+  .detail-visual .product-presentation-brand {
+    left: 30px;
+    top: 30px;
+  }
+  .detail-visual .product-presentation-brand > span {
+    font-size: 35px;
+  }
+  .detail-visual .product-presentation-brand > img {
+    width: 38px;
+    height: 38px;
+  }
+  .detail-visual .product-presentation-copy {
+    left: 30px;
+    top: 125px;
+  }
+  .detail-visual .product-presentation-copy > h3 {
+    font-size: 43px;
+    letter-spacing: -2px;
+  }
+  .detail-visual .product-presentation-copy > .mono {
+    font-size: 7px;
+  }
+  .detail-visual .product-presentation-note {
+    left: 30px;
+    font-size: 6px;
+  }
+  .detail-visual .product-phones {
+    width: 58%;
+    right: -1%;
+    bottom: -5%;
+    height: 79%;
+  }
+  .case-study-heading {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .case-study-heading > p {
+    max-width: 560px;
+  }
+  .case-challenge {
+    grid-template-columns: 1fr 3fr;
+    gap: 25px;
+  }
+  .case-contributions h3 {
+    font-size: 20px;
+  }
+  .case-contributions p {
+    font-size: 11px;
+  }
+  .case-outcome {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .case-outcome .product-links {
+    justify-content: flex-start;
+  }
+  .case-outcome .product-link {
+    flex: 1;
+    min-width: 135px;
+  }
+  .detail-gallery .media-gallery {
+    gap: 20px;
+  }
+  .detail-gallery .gallery-button {
+    padding: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .project-list .product-presentation {
+    height: 340px;
+  }
+  .project-list .product-presentation-copy {
+    top: 105px;
+    width: 35%;
+  }
+  .project-list .product-presentation-copy > h3 {
+    font-size: 24px;
+  }
+  .project-list .product-phones {
+    width: 55%;
+    height: 86%;
+    bottom: -11%;
+    right: -19%;
+  }
+  .project-list .product-presentation-note {
+    bottom: 22px;
+    font-size: 5px;
+    max-width: 150px;
+  }
+  .project-name {
+    gap: 10px;
+  }
+  .project-name > img {
+    width: 29px;
+    height: 29px;
+    border-radius: 7px;
+  }
+  .product-links.compact {
+    gap: 7px;
+  }
+  .product-links.compact .product-link {
+    padding: 8px 10px;
+    gap: 7px;
+  }
+  .product-links.compact strong {
+    font-size: 10px;
+  }
+  .product-links.compact .product-link > svg {
+    width: 15px;
+  }
+  .detail-platforms {
+    margin-top: 25px;
+  }
+  .detail-platforms > .eyebrow {
+    font-size: 7px;
+  }
+  .detail-platforms .product-links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+  }
+  .detail-platforms .product-link {
+    min-width: 0;
+    padding: 10px 8px;
+    gap: 6px;
+  }
+  .detail-platforms .product-link > svg:first-child {
+    width: 15px;
+  }
+  .detail-platforms .product-link small {
+    font-size: 6px;
+    white-space: nowrap;
+  }
+  .detail-platforms .product-link strong {
+    font-size: 11px;
+  }
+  .detail-platforms .product-link-arrow {
+    display: none;
+  }
+  .detail-visual.product-presentation {
+    height: 435px;
+  }
+  .detail-visual .product-presentation-brand {
+    left: 22px;
+    top: 23px;
+    gap: 10px;
+  }
+  .detail-visual .product-presentation-brand > span {
+    font-size: 30px;
+  }
+  .detail-visual .product-presentation-brand > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+  }
+  .detail-visual .product-presentation-copy {
+    left: 22px;
+    top: 95px;
+    width: 75%;
+  }
+  .detail-visual .product-presentation-copy > .mono {
+    font-size: 5px;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+  }
+  .detail-visual .product-presentation-copy > h3 {
+    font-size: 32px;
+    letter-spacing: -1.4px;
+  }
+  .detail-visual .product-phones {
+    width: 82%;
+    right: -2%;
+    height: 64%;
+    bottom: -4%;
+  }
+  .detail-visual .product-phone {
+    width: 41%;
+    padding: 3px;
+    border-radius: 16px;
+  }
+  .detail-visual .product-phone > img {
+    border-radius: 12px;
+  }
+  .detail-visual .phone-1 {
+    top: 35px;
+  }
+  .detail-visual .phone-2 {
+    top: 0;
+  }
+  .detail-visual .phone-3 {
+    top: 35px;
+  }
+  .detail-visual .product-presentation-note {
+    left: 15px;
+    bottom: 14px;
+    font-size: 5px;
+    max-width: 165px;
+    padding: 4px 6px;
+    background: #11261ee6;
+    border-radius: 3px;
+  }
+  .case-study-heading h2 {
+    font-size: 34px;
+    letter-spacing: -1.5px;
+  }
+  .case-study-heading .eyebrow {
+    font-size: 7px;
+    letter-spacing: 0.7px;
+    margin-bottom: 20px;
+  }
+  .case-study-heading > p {
+    font-size: 12px;
+  }
+  .case-challenge {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 22px 0;
+  }
+  .case-challenge > p {
+    font-size: 12px;
+  }
+  .case-contributions {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  .case-contributions article {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 25px;
+  }
+  .case-contributions article:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .case-contributions article > .mono {
+    margin-bottom: 17px;
+  }
+  .case-contributions h3 {
+    font-size: 24px;
+  }
+  .case-contributions p {
+    font-size: 12px;
+  }
+  .case-outcome {
+    padding: 22px 18px;
+    margin-top: 35px;
+  }
+  .case-outcome h3 {
+    font-size: 25px;
+  }
+  .case-outcome .eyebrow {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .case-outcome .product-links {
+    gap: 8px;
+  }
+  .case-outcome .product-link {
+    flex: 1;
+    min-width: 110px;
+    padding: 10px 12px;
+    gap: 9px;
+  }
+  .case-outcome .product-link strong {
+    font-size: 13px;
+  }
+  .case-outcome .product-link small {
+    font-size: 7px;
+  }
+  .case-outcome .product-link > svg {
+    width: 16px;
+  }
+  .case-outcome .product-link-arrow {
+    display: none;
+  }
+  .detail-gallery .media-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 12px;
+  }
+  .detail-gallery .gallery-button {
+    padding: 7px;
+  }
+  .detail-gallery .gallery-button > img {
+    border-radius: 7px;
+  }
+  .detail-gallery .gallery-button > svg {
+    bottom: 12px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+  }
+  .detail-gallery .media-gallery figcaption {
+    font-size: 9px;
+  }
+  .gallery-note {
+    font-size: 6px;
+    letter-spacing: 0.3px;
+  }
+}
